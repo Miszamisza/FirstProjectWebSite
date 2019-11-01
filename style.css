@@ -1,0 +1,131 @@
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+
+#item1{
+    font-size: 3em;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: siteBrandingAnimation 5s ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes siteBrandingAnimation{
+   from{opacity: 0;}
+   to{opacity: 100;}
+
+}
+#item2{
+    font-size: 3em;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: siteBrandingAnimation 5s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes siteBrandingAnimation{
+   from{opacity: 0;}
+   to{opacity: 100;}
+
+}
+
+#item3{
+    font-size: 3em;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: siteBrandingAnimation 5s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+}
+
+@keyframes siteBrandingAnimation{
+   from{opacity: 0;}
+   to{opacity: 100;}
+
+}
+
+#item4{
+    font-size: 3em;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: siteBrandingAnimation 5s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+
+}
+
+@keyframes siteBrandingAnimation{
+   from{opacity: 0;}
+   to{opacity: 100;}
+
+}
+
+#item5{
+    font-size: 3em;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: siteBrandingAnimation 5s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+}
+
+@keyframes siteBrandingAnimation{
+   from{opacity: 0;}
+   to{opacity: 100;}
+
+}
+
+#item6{
+    font-size: 3em;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: siteBrandingAnimation 5s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+
+}
+
+@keyframes siteBrandingAnimation{
+   from{opacity: 0;}
+   to{opacity: 100;}
+
+}
+
+
+.navbar-brand{
+    margin: 20px;
+    transition:2s ease-in-out;
+}
+
+.navbar-brand:hover{
+    transform: rotateY(180deg);
+}
+
+.paragraf{
+    margin: 60px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration-style: solid;
+}
+
+.img-fluid{
+    margin-bottom: 100px;
+    height: 100px;
+    width: auto;
+
+}
+
+.col-4{
+    text-align: center;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
