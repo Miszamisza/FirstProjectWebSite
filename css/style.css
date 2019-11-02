@@ -1,15 +1,13 @@
 body{
     background-color: lightgoldenrodyellow;
     font-family: 'Lato', sans-serif;
-}
-
-.row col-sm-12{
-    max-width: 1200px;
+    max-width: 1320px;
+    margin: 5%;
 }
 
 #item1{
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     opacity: 0;
     animation: siteBrandingAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
@@ -18,7 +16,7 @@ body{
 
 #item2{
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     opacity: 0;
     animation: siteBrandingAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
@@ -29,7 +27,7 @@ body{
 
 #item3{
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     opacity: 0;
     animation: siteBrandingAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
@@ -39,7 +37,7 @@ body{
 
 #item4{
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     opacity: 0;
     animation: siteBrandingAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
@@ -49,7 +47,7 @@ body{
 
 #item5{
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     opacity: 0;
     animation: siteBrandingAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
@@ -60,7 +58,7 @@ body{
 
 #item6{
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     opacity: 0;
     animation: siteBrandingAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
@@ -76,7 +74,7 @@ body{
 
 
 .navbar-brand{
-    margin: 20px;
+    margin: 2%;
     transition:2s ease-in-out;
 }
 
@@ -85,14 +83,14 @@ body{
 }
 
 .paragraf{
-    margin: 60px;
+    margin: 5%;
     font-size: 2em;
     text-align: center;
     text-decoration-style: solid;
 }
 
 .img-fluid{
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     height: 100px;
     width: auto;
 
@@ -103,7 +101,7 @@ body{
 }
 
 footer{
-    margin: 20px;
+    margin: 5%;
     text-align: center;
 }
 
