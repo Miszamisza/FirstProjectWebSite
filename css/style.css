@@ -3,6 +3,9 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.row col-sm-12{
+    max-width: 1200px;
+}
 
 #item1{
     font-size: 3em;
