@@ -1,77 +1,7 @@
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: #e8e3e3;
     font-family: 'Lato', sans-serif;
-    max-width: 1320px;
-    margin: 5%;
 }
-
-#item1{
-    font-size: 3em;
-    margin-bottom: 5%;
-    opacity: 0;
-    animation: siteBrandingAnimation 2s ease-in-out;
-    animation-fill-mode: forwards;
-
-}
-
-#item2{
-    font-size: 3em;
-    margin-bottom: 5%;
-    opacity: 0;
-    animation: siteBrandingAnimation 2s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-
-}
-
-
-#item3{
-    font-size: 3em;
-    margin-bottom: 5%;
-    opacity: 0;
-    animation: siteBrandingAnimation 2s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-
-}
-
-#item4{
-    font-size: 3em;
-    margin-bottom: 5%;
-    opacity: 0;
-    animation: siteBrandingAnimation 2s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 3s;
-
-}
-
-#item5{
-    font-size: 3em;
-    margin-bottom: 5%;
-    opacity: 0;
-    animation: siteBrandingAnimation 2s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 4s;
-
-}
-
-
-#item6{
-    font-size: 3em;
-    margin-bottom: 5%;
-    opacity: 0;
-    animation: siteBrandingAnimation 2s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 5s;
-
-}
-
-@keyframes siteBrandingAnimation{
-    from{opacity: 0;}
-    to{opacity: 100;}
-
-}
-
 
 .navbar-brand{
     margin: 2%;
@@ -106,6 +36,5 @@ footer{
 }
 
 #img{
-    height: 400px;
-
+    height: 200px;
 }
