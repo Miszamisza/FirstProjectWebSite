@@ -68,8 +68,8 @@ body{
 @keyframes siteBrandingAnimation{
     from{opacity: 0;}
     to{opacity: 100;}
- 
- }
+
+}
 
 
 .navbar-brand{
@@ -102,4 +102,9 @@ body{
 footer{
     margin: 20px;
     text-align: center;
+}
+
+#img{
+    height: 400px;
+
 }
