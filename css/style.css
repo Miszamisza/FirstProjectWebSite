@@ -73,6 +73,15 @@ img {
     margin-left: 80px;
 }
 
+.thumbnail-img{
+    opacity: 1;
+    transition: 2s ease-in-out;
+}
+
+.thumbnail-img:hover{
+    opacity: .5;
+}
+
 [class*="block-grid-"] {
     display: block;
     padding: 0;
