@@ -1,0 +1,444 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+html {
+  background-color: #ece5df !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thumbnail {
+  margin-bottom: -0.5em;
+  max-width: 328px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 346, ../scss/_custom.scss */
+.thumbnail-img {
+  position: relative;
+}
+
+/* line 350, ../scss/_custom.scss */
+.thumbnail-hover {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 95, 153, 0.5);
+}
+
+/* line 358, ../scss/_custom.scss */
+.thumbnail-hover a {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 365, ../scss/_custom.scss */
+.thumbnail-hover a:hover {
+  border: none;
+}
+
+/* line 369, ../scss/_custom.scss */
+.thumbnail-caption {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+/* line 381, ../scss/_custom.scss */
+.thumbnail-caption a {
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+/* line 385, ../scss/_custom.scss */
+ul.small-block-grid-1 li {
+  text-align: center;
+}
+
+/* line 389, ../scss/_custom.scss */
+hr.project-detail-hr {
+  margin-top: 1.75em;
+  display: none;
+}
+
+/* line 394, ../scss/_custom.scss */
+.project-img {
+  text-align: center;
+  margin-top: 3em;
+}
+
+/* line 399, ../scss/_custom.scss */
+.project-img:first-of-type {
+  margin-top: 1.75em;
+}
+
+/* line 403, ../scss/_custom.scss */
+.project-img h6 {
+  padding-top: 1em;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* line 414, ../scss/_custom.scss */
+.back-to-top-holder {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+/* line 420, ../scss/_custom.scss */
+.back-to-top {
+  border: none;
+  color: #283a49;
+}
+
+/* line 425, ../scss/_custom.scss */
+a.back-to-top:hover {
+  border: none !important;
+}
+
+/* line 429, ../scss/_custom.scss */
+.raw-html iframe {
+  padding-top: 2em;
+}
+
+/* line 433, ../scss/_custom.scss */
+.raw-html div {
+  margin-top: 2em;
+}
+
+/* line 437, ../scss/_custom.scss */
+.raw-html hr {
+  display: none;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/*==================================================================================================
+Footer
+==================================================================================================*/
+/* line 449, ../scss/_custom.scss */
+footer {
+  border-top: 1px solid #9d9995;
+  margin-top: 3em;
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+
+/* line 456, ../scss/_custom.scss */
+footer ul {
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 0;
+}
+
+/* line 462, ../scss/_custom.scss */
+footer li {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-transform: none;
+  display: inline-block;
+  padding-left: 1em;
+  margin-right: 1em;
+  color: #283a49;
+}
+
+/* line 476, ../scss/_custom.scss */
+footer li a {
+  color: #283a49;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+/* line 481, ../scss/_custom.scss */
+footer div.social-icons {
+  text-align: center;
+}
+
+/* line 485, ../scss/_custom.scss */
+footer div.social-icons i {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  color: #283a49;
+}
+
+/* line 491, ../scss/_custom.scss */
+footer div.social-icons a:hover i {
+  color: #1a5f99;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+/* line 496, ../scss/_custom.scss */
+footer div.social-icons a i {
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+/*==================================================================================================
+Media Queries
+==================================================================================================*/
+@media only screen and (min-width: 40.063em) {
+  /* line 508, ../scss/_custom.scss */
+  header {
+    padding-top: 6.25em;
+    padding-bottom: 3.95em;
+  }
+
+  /* line 513, ../scss/_custom.scss */
+  div div header h1 {
+    font-size: 2rem;
+  }
+
+  /* line 517, ../scss/_custom.scss */
+  div div header h2 {
+    font-size: 1rem;
+  }
+
+  /* line 521, ../scss/_custom.scss */
+  div div h2 {
+    font-size: 1.5rem;
+  }
+
+  /* line 525, ../scss/_custom.scss */
+  div div h3 {
+    font-size: 1.125rem;
+  }
+
+  /* line 529, ../scss/_custom.scss */
+  hr.project-detail-hr {
+    display: block;
+  }
+
+  /* line 533, ../scss/_custom.scss */
+  .raw-html hr {
+    display: block;
+  }
+
+  /* line 537, ../scss/_custom.scss */
+  .project-img:first-of-type {
+    margin-top: 3em;
+  }
+}
+/* line 287, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen and (max-width: 40em)/";
+  width: 0em;
+}
+
+/* line 292, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em) and (max-width:64em)/";
+  width: 40.063em;
+}
+
+/* line 297, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 302, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 307, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 317, ../bower_components/foundation/scss/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 322, ../bower_components/foundation/scss/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 325, ../bower_components/foundation/scss/foundation/components/_global.scss */
+body {
+  background: #ece5df;
+  color: #0a161f;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: "default";
+}
+
+/* line 338, ../bower_components/foundation/scss/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 343, ../bower_components/foundation/scss/foundation/components/_global.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 346, ../bower_components/foundation/scss/foundation/components/_global.scss */
+object,
+embed {
+  height: 100%;
+}
+
+/* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 353, ../bower_components/foundation/scss/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 358, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 359, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 360, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 165, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 166, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 362, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 363, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.text-center {
+  text-align: center !important;
+}
+
+/* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.text-justify {
+  text-align: justify !important;
+}
+
+/* line 365, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 371, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 374, ../bower_components/foundation/scss/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 384, ../bower_components/foundation/scss/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 387, ../bower_components/foundation/scss/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -1.5em;
+  *zoom: 1;
+}
+/* line 165, ../bower_components/foundation/scss/foundation/components/_global.scss */
+[class*="block-grid-"]:before, [class*="block-grid-"]:after {
+  content: " ";
+  display: table;
+}
+/* line 166, ../bower_components/foundation/scss/foundation/components/_global.scss */
+[class*="block-grid-"]:after {
+  clear: both;
+}
+/* line 35, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+[class*="block-grid-"] > li {
+  display: inline;
+  height: auto;
+  float: left;
+  padding: 0 1.5em 3em;
+}
