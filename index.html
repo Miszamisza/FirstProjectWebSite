@@ -8,23 +8,21 @@
     <link rel="shortcut icon" href="img/ikona.jpg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-pills sticky-top">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-pills sticky-top" id="main-image">
     <a href="index.html" class="navbar-brand">Noemi Zielińska</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-3">
+        <ul class="navbar-nav ml-2">
             <li class="navbar-item active">
-                <a href="#main-image" class="nav-link">Strona główna</a>
+                <a href="index.html" class="nav-link">Strona główna</a>
             </li>
             <li class="navbar-item">
                 <a href="#aboutme" class="nav-link">O mnie</a>
@@ -41,14 +39,13 @@
 
 <div class="row" id="main">
     <div class="col-sm-12">
-        <img src="css/woman.jpg" class="img-fluid h-100 w-100" alt="Noemi foto" id="main-image">
+        <img src="css/woman.jpg" class="img-fluid h-100 w-100" alt="Noemi foto">
         <div class="container">
             <div id="text"><h3> Noemi Zielińska</h3></div>
         </div>
     </div>
 </div>
 <div id="aboutme" style="height: 100px"></div>
-<br><br>
 <div class="row justify-content-center"><p class="paragraf">O mnie:</p>
 </div>
 
@@ -56,88 +53,77 @@
     <hr>
     <div class="row">
         <div class="col">
-            <img src="img/misza.jpg" alt="Noemi Zielińska" id="img" style="margin: 80px">
+            <img src="img/misza.jpg" alt="Noemi Zielińska" id="img" style="margin: 60px">
         </div>
-        <div class="col" style="margin-top: 100px;">
+        <div class="col" style="margin-top: 20px;">
             <strong>Kilka słów o mnie:</strong>
             <p class="lead text-left">
                 Jestem początującą programistką. Do tej pory opanowałam podstawy javy, springa, hibernata,
                 sql-a.
                 Obecnie rozpoczynam naukę na CodersCamp, gdzie zgłębie tajniki html, js, react,
                 node.js.
-                </a>
             </p>
         </div>
     </div>
 </div>
 
-<div id="tech" style="height: 100px"></div>
+<div id="tech" style="height: 70px"></div>
 <br><br>
 <div class="row justify-content-center"><p class="paragraf">Technologie:</p>
 </div>
 <hr>
-
-<div class="small-12 medium-12 large-12 columns">
-    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 inline-list-custom">
-        <li>
-            <div class="thumbnail">
-                <div class="thumbnail-img" style="width: 400px">
-                    <div class="thumbnail-hover"><a href="project-01.html"></a></div>
-                    <img src="img/java.jpg" alt="Java" class="img-fluid"/>
-                </div>
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm">
+            <div class="overlay">
+                <img src="img/java.jpg" alt="Java" class="gallery-img">
+                <div class="text1"><h3> Java</h3></div>
             </div>
-        </li>
-        <li>
-            <div class="thumbnail">
-                <div class="thumbnail-img" style="width: 400px">
-                    <div class="thumbnail-hover">Spring</div>
-                    <img src="img/java.jpg" alt="Spring" class="img-fluid"/>
-                </div>
+        </div>
+        <div class="col-sm">
+            <div class="overlay">
+                <img src="img/java.jpg" alt="Java" class="gallery-img">
+                <div class="text1"><h3> Spring</h3></div>
             </div>
-        </li>
-        <li>
-            <div class="thumbnail">
-                <div class="thumbnail-img" style="width: 400px">
-                    <div class="thumbnail-hover">Sql</div>
-                    <img src="img/java.jpg" alt="Sql" class="img-fluid"/>
-                </div>
+        </div>
+        <div class="col-sm">
+            <div class="overlay">
+                <img src="img/java.jpg" alt="Java" class="gallery-img">
+                <div class="text1"><h3> Sql</h3></div>
             </div>
-        </li>
-        <li>
-            <div class="thumbnail">
-                <div class="thumbnail-img" style="width: 400px">
-                    <div class="thumbnail-hover">Html</div>
-                    <img src="img/java.jpg" alt="Html" class="img-fluid"/>
-                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="overlay">
+                <img src="img/java.jpg" alt="Java" class="gallery-img">
+                <div class="text1"><h3> Hibernate</h3></div>
             </div>
-        </li>
-        <li>
-            <div class="thumbnail">
-                <div class="thumbnail-img" style="width: 400px">
-                    <div class="thumbnail-hover">Css</div>
-                    <img src="img/java.jpg" alt="Css" class="img-fluid"/>
-                </div>
+        </div>
+        <div class="col-sm">
+            <div class="overlay">
+                <img src="img/java.jpg" alt="Java" class="gallery-img">
+                <div class="text1"><h3> Html</h3></div>
             </div>
-        </li>
-        <li>
-            <div class="thumbnail">
-                <div class="thumbnail-img" style="width: 400px">
-                    <div class="thumbnail-hover">Css</div>
-                    <img src="img/java.jpg" alt="Css" class="img-fluid"/>
-                </div>
+        </div>
+        <div class="col-sm">
+            <div class="overlay">
+                <img src="img/java.jpg" alt="Java" class="gallery-img">
+                <div class="text1"><h3> Css</h3></div>
             </div>
-        </li>
-    </ul>
+        </div>
+    </div>
 </div>
 
-<div id="contact" style="height: 100px"></div>
 
 <br><br>
+<div id="contact" style="height: 70px"></div>
+
 <div class="row justify-content-center"><p class="paragraf">Kontakt:</p>
 </div>
 <hr>
 
-<div class="row justify-content-between" style="margin-left: 70px;">
+<div class="row justify-content-between" style="margin-left: 40px;">
     <div class="col-sm-2 ">
         <a href="https://github.com/Miszamisza" target="_blank"><img src="img/github.png" class="img-fluid"
                                                                      alt="java logo"></a>
@@ -151,11 +137,18 @@
                                                                                alt="codewars logo"></a>
     </div>
     <div class="col-sm-2">
-        <a href="https://github.com/Miszamisza" target="_blank"><img src="img/mail.png" class="img-fluid" alt="e-mail"></a>
+        <a href="mailto:zielinskanoemi5@gmail.com"><img src="img/mail.png" class="img-fluid" alt="e-mail"></a>
     </div>
 </div>
-<hr>
-<footer><span class="italic">Copyright 2019</span></footer>
 
+<footer>
+    <hr>
+    <span class="italic"> Copyright 2019</span></footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
