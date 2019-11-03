@@ -45,16 +45,16 @@ h3 {
 }
 
 #img{
-    height: 300px;
+    height: 500px;
     border-radius: 250px;
 }
 
 #aboutme{
-    margin: 2%;
+    margin: 0;
 }
 
 #contact{
-    margin: 2%;
+    margin: 0;
 }
 
 .paragraf{
@@ -62,9 +62,8 @@ h3 {
     font-size: 2em;
     text-align: center;
     border-style: solid;
-    border-color: #bd2130;
+    border-color: var(--main-site-color);
     background-color: whitesmoke;
-    border-radius: 25px;
     transition: 2s ease-in-out;
 
 }
@@ -74,13 +73,14 @@ h3 {
 }
 
 .gallery-img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 10%;
 }
 
 .overlay{
-    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-bottom: 25%;
     position: relative;
 }
 
@@ -111,12 +111,13 @@ h3 {
     width: 100px;
 }
 
-#social-media .col-sm ul li {
+
+#social-media .social-media-el ul li {
     position: absolute;
     display: block;
 }
 
-#social-media .col-sm ul li:hover:before {
+#social-media .social-media-el ul li:hover:before {
     content: attr(data-tooltip0);
     width: 100px;
     white-space: pre;
@@ -126,12 +127,12 @@ h3 {
     font-size: 12px;
     font-weight: bold;
     position: absolute;
-    left: 0%;
-    top: 90%;
+    left: 90%;
+    top: 5%;
 }
 
 footer{
-    margin-top: 15%;
     text-align: center;
+    background-color: #4e555b;
 }
 
