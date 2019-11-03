@@ -1,5 +1,9 @@
+:root {
+    --main-site-color: #e8e3e3;
+}
+
 body{
-    background-color: #e8e3e3;
+    background-color: var(--main-site-color);
     font-family: 'Lato', sans-serif;
 }
 
@@ -12,11 +16,43 @@ body{
     transform: rotateY(180deg);
 }
 
-.paragraf{
+
+#text{
+    position: absolute;
+    color: white;
+    top:44%;
+    left: 44%;
+
+}
+
+#img{
+    height: 400px;
+    margin: 10%;
+    border-radius: 50%;
+}
+
+#aboutme{
+    margin: 2%;
+}
+
+#contact{
     margin: 5%;
+}
+
+.paragraf{
+    padding: 1%;
     font-size: 2em;
     text-align: center;
-    text-decoration-style: solid;
+    border-style: solid;
+    border-color: #dee2e6;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    transition: 2s ease-in-out;
+
+}
+
+.paragraf:hover{
+    background-color: #0c5460;
 }
 
 .img-fluid{
@@ -26,15 +62,9 @@ body{
 
 }
 
-.col-4{
-    text-align: center;
-}
 
 footer{
     margin: 5%;
     text-align: center;
 }
 
-#img{
-    height: 200px;
-}

@@ -6,86 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Noemi Zielińska</title>
     <link rel="shortcut icon" href="img/ikona.jpg">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-pills">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-pills sticky-top">
     <a href="index.html" class="navbar-brand">Noemi Zielińska</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-3">
             <li class="navbar-item active">
-                <a href="index.html" class="nav-link">Strona główna</a>
+                <a href="#main-image" class="nav-link">Strona główna</a>
             </li>
             <li class="navbar-item">
-                <a href="galeria.html" class="nav-link">Galeria</a>
+                <a href="#aboutme" class="nav-link">O mnie</a>
             </li>
             <li class="navbar-item">
-                <a href="projekty.html" class="nav-link">Projekty</a>
+                <a href="#tech" class="nav-link">Technologie</a>
             </li>
             <li class="navbar-item">
-                <a href="kontakt.html" class="nav-link">Kontakt</a>
+                <a href="#contact" class="nav-link">Kontakt</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<div class="row">
+<div class="row" id="main">
     <div class="col-sm-12">
-        <figure>
-            <img src="css/woman.jpg" class="img-fluid h-100 w-100" alt="main image">
-        </figure>
+        <img src="css/woman.jpg" class="img-fluid h-100 w-100" alt="Noemi foto" id="main-image">
+        <div class="container">
+            <div id="text"><h3> Noemi Zielińska</h3></div>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="row justify-content-center"><p class="paragraf">O mnie:</p>
+</div>
+
+<div class="container" id="aboutme">
+    <div class="row">
+        <div class="col img-fluid">
+            <img src="img/misza.jpg" alt="Noemi Zielińska" id="img" style="margin: 80px">
+        </div>
+        <div class="col align-self-end" style="margin-top: 100px;">
+            <strong>Kilka słów o mnie:</strong>
+            <p class="lead text-left">
+                Jestem początującą programistką. Do tej pory opanowałam podstawy javy, springa, hibernata,
+                sql-a.
+                W chwili obecnej rozpoczynam naukę na CodersCamp, gdzie zgłębie tajniki html, js, react,
+                node.js.
+                </a>
+            </p>
+            <address>
+                <strong>Dane Kontaktowe:</strong><br>
+                <p class="lead">
+                    Poznań <br>
+                    <abbr title="Email">Email:</abbr> zielinskanoemi5@gmail.com
+                </p>
+            </address>
+        </div>
     </div>
 </div>
 
+<br><br><br><br><br><br>
+<div class="row justify-content-center"><p class="paragraf">Technologie:</p>
+</div>
 
-<p class="paragraf">Technologie:</p>
+<div class="row">
+<div class="gallery justify-content-around" id="gallery">
+   <div class="col ml-5">
+       <figure><img src="img/java.jpg" class="img-fluid"></figure>
+   </div>
+</div>
+</div>
 
-<div class="row justify-content-between" style="margin-left: 70px;">
-    <div class="col-sm-12 col-md-2 ">
+<br><br><br><br><br><br>
+<div class="row justify-content-center"><p class="paragraf">Kontakt:</p>
+</div>
+
+<div class="row justify-content-between" style="margin-left: 70px;" id="tech">
+    <div class="col-sm-2 ">
         <figure>
-            <img src="img/java.png" class="img-fluid" alt="java logo">
+            <a href="https://github.com/Miszamisza"><img src="img/github.png" class="img-fluid" alt="java logo"></a>
         </figure>
     </div>
-    <div class="col-sm-12 col-md-2">
+    <div class="col-sm-2">
         <figure>
-
-            <img src="img/spring.png" class="img-fluid" alt="spring logo">
+            <a href="https://github.com/Miszamisza"><img src="img/linkedin.png" class="img-fluid" alt="java logo"></a>
         </figure>
     </div>
-    <div class="col-sm-12 col-md-2">
+    <div class="col-sm-2">
         <figure>
-            <img src="img/hibernate.png" class="img-fluid" alt="hibernate logo">
+            <a href="https://github.com/Miszamisza"><img src="img/codewars.png" class="img-fluid" alt="java logo"></a>
         </figure>
     </div>
-    <div class="col-sm-12 col-md-2">
+    <div class="col-sm-2">
         <figure class="img">
-            <img src="img/javascript.png" class=" img-fluid" alt="js logo">
-        </figure>
-    </div>
-    <div class="col-sm-12 col-md-2">
-        <figure>
-            <img src="img/html.png" class="img-fluid" alt="html logo">
+            <a href="https://github.com/Miszamisza"><img src="img/mail.png" class="img-fluid" alt="java logo"></a>
         </figure>
     </div>
 </div>
-
 <hr>
 <footer><span class="italic">Copyright 2019</span></footer>
-</body>
-<script src="img/https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="img/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src-="js/bootstrap.min.js"></script>
-</body>
 
+</body>
 </html>
