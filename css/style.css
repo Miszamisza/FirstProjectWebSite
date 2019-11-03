@@ -9,6 +9,8 @@ body{
     background-color: var(--main-site-color);
     font-family: "Arvo", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
+
+
 h3 {
     font-weight: bold;
     font-style: normal;
@@ -98,10 +100,6 @@ h3 {
     color: #bd2130;
 }
 
-.img {
-    display: inline-block;
-}
-
 .link{
     color: #4e555b;
 }
@@ -109,13 +107,16 @@ h3 {
     color: #1d2124;
     text-decoration: none;
 }
+.img-fluid{
+    width: 100px;
+}
 
-.col-sm-2 ul li {
+#social-media .col-sm ul li {
     position: absolute;
     display: block;
 }
 
-.col-sm-2 ul li:hover:before {
+#social-media .col-sm ul li:hover:before {
     content: attr(data-tooltip0);
     width: 100px;
     white-space: pre;
