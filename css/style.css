@@ -41,11 +41,11 @@ h3 {
 
 @keyframes textAnim {
     0%{left: -1000px;}
-    100%{left: 33%;}
+    100%{left: 40%;}
 }
 
 #img{
-    height: 500px;
+    height: 300px;
     border-radius: 250px;
 }
 
