@@ -32,8 +32,9 @@ h3 {
 #text{
     position: absolute;
     color: white;
-    top:44%;
-    left: 44%;
+    top:30%;
+    left: 40%;
+    text-align: justify;
     animation-name: textAnim;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -44,13 +45,13 @@ h3 {
     100%{left: 40%;}
 }
 
+#aboutme{
+    margin: 0;
+}
+
 #img{
     height: 300px;
     border-radius: 250px;
-}
-
-#aboutme{
-    margin: 0;
 }
 
 #contact{
@@ -75,7 +76,7 @@ h3 {
 .gallery-img{
     width: 100px;
     height: 100px;
-    margin: 10%;
+    margin: 5%;
 }
 
 .overlay{
@@ -121,14 +122,14 @@ h3 {
     content: attr(data-tooltip0);
     width: 100px;
     white-space: pre;
-    height: 50px;
+    height: 100px;
     padding: 15px;
     color: black;
     font-size: 12px;
     font-weight: bold;
     position: absolute;
     left: 90%;
-    top: 5%;
+    top: 20%;
 }
 
 footer{
