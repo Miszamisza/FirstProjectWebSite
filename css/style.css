@@ -33,10 +33,9 @@ h3 {
     transform: rotateY(180deg);
 }
 
-#mainStyle{
+#main-style{
     margin: 0;
     padding: 0;
-    position: relative;
 }
 
 #textAnim{
@@ -76,7 +75,7 @@ h3 {
 
 #aboutmeContainer {
     position: relative;
-    height: 600px;
+    height: 700px;
     background-color: lightgray
 }
 
@@ -86,9 +85,14 @@ h3 {
 }
 
 #img{
+    margin: 5%;
     height: 300px;
 }
 
+#aboutmeText{
+    margin: 5%;
+    padding: 5%;
+}
 
 #contact{
     margin: 0;
@@ -101,14 +105,18 @@ h3 {
 
 }
 
+#tech-container{
+    height: 500px;
+}
 
 .gallery-img{
     width: 100px;
     height: 100px;
-    margin: 5%;
+    margin: 10%;
 }
 
 .overlay{
+    padding: 10%;
     margin-left: 25%;
     margin-bottom: 25%;
     position: relative;
@@ -118,7 +126,7 @@ h3 {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 85%;
+    top: 90%;
     left: 0;
     color: snow;
     opacity: 0;
@@ -141,6 +149,10 @@ h3 {
     width: 100px;
 }
 
+#social-media-container{
+    background-color: lightgray;
+    height: 400px;
+}
 
 #social-media .social-media-el ul li {
     position: absolute;
@@ -149,16 +161,17 @@ h3 {
 
 #social-media .social-media-el ul li:hover:before {
     content: attr(data-tooltip0);
-    width: 100px;
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
     white-space: pre;
-    height: 100px;
     padding: 15px;
     color: black;
-    font-size: 12px;
     font-weight: bold;
+    font-size: 1vw;
     position: absolute;
-    left: 90%;
-    top: 20%;
+    top: 90%;
+    right: 40%;
 }
 
 footer{
