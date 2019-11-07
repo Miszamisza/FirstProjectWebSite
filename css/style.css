@@ -75,7 +75,7 @@ h3 {
 
 #aboutmeContainer {
     position: relative;
-    height: 700px;
+    height: 800px;
     background-color: lightgray
 }
 
@@ -106,25 +106,26 @@ h3 {
 }
 
 #tech-container{
-    height: 500px;
+    height: 800px;
 }
 
-.gallery-img{
-    width: 100px;
+.img-fluid gallery-img{
     height: 100px;
+    width: auto;
     margin: 10%;
 }
 
 .overlay{
-    padding: 10%;
     margin-left: 25%;
     margin-bottom: 25%;
     position: relative;
 }
 
+
 .overlay .text1{
+    margin: 0;
+    padding: 0;
     position: absolute;
-    width: 100%;
     text-align: center;
     top: 90%;
     left: 0;
@@ -180,3 +181,7 @@ footer{
     background-color: #4e555b;
 }
 
+.col{
+    width: 150px;
+    height: 150px;
+}
