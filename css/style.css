@@ -73,6 +73,7 @@ h3 {
 }
 
 #aboutmeContainer {
+    max-width: 800px;
     position: relative;
     background-color: lightgray
 }
@@ -83,7 +84,7 @@ h3 {
 }
 
 #img{
-    margin: 5%;
+    margin-top: 25%;
     height: 200px;
     width: 150px;
 }
@@ -143,10 +144,15 @@ h3 {
 .img-fluid{
     width: 100px;
 }
+#tech-container{
+    max-width: 800px;
+    margin-bottom: 20%;
+}
 
 #social-media-container{
     background-color: lightgray;
     min-height: 300px;
+    max-width: 800px;
 }
 
 #social-media{
