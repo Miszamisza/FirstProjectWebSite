@@ -94,7 +94,7 @@ h3 {
 }
 
 #contact{
-    margin: 0;
+    margin-bottom:10%;
 }
 
 .paragraf{
@@ -104,7 +104,7 @@ h3 {
 
 }
 
-.img-fluid gallery-img{
+.img-fluid .gallery-img{
     width: 100px;
     height: 100px;
     margin: 10%;
@@ -149,6 +149,10 @@ h3 {
     min-height: 300px;
 }
 
+#social-media{
+
+    margin-right: 5%;
+}
 
 #social-media .social-media-el ul li {
     position: absolute;
