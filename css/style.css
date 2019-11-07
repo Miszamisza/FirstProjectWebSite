@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+@font-face { font-family: OpenSans; src: url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700); }
+@font-face { font-family: Arvo; src: url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic); }
 
 :root {
     --main-site-color: #e8e3e3;
@@ -7,9 +8,13 @@
 
 body{
     background-color: var(--main-site-color);
-    font-family: "Arvo", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: Arvo, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-
+#main{
+    padding: 0;
+    margin: 0;
+    border-bottom:solid black 10px
+}
 
 h3 {
     font-weight: bold;
@@ -28,9 +33,15 @@ h3 {
     transform: rotateY(180deg);
 }
 
+#mainStyle{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
 
-#text{
+#textAnim{
     position: absolute;
+    font-size: 3vw;
     color: white;
     top:30%;
     left: 40%;
@@ -45,14 +56,39 @@ h3 {
     100%{left: 40%;}
 }
 
+#textSubAnim{
+    position: absolute;
+    font-size: 1.5vw;
+    color: white;
+    top:40%;
+    left: 41%;
+    opacity: 0;
+    animation-name: textSubAnim;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textSubAnim {
+   0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#aboutmeContainer {
+    position: relative;
+    height: 600px;
+    background-color: lightgray
+}
+
 #aboutme{
     margin: 0;
+    height: 100px;
 }
 
 #img{
     height: 300px;
-    border-radius: 250px;
 }
+
 
 #contact{
     margin: 0;
@@ -62,16 +98,9 @@ h3 {
     padding: 10px;
     font-size: 2em;
     text-align: center;
-    border-style: solid;
-    border-color: var(--main-site-color);
-    background-color: whitesmoke;
-    transition: 2s ease-in-out;
 
 }
 
-.paragraf:hover{
-    background-color: #bd2130;
-}
 
 .gallery-img{
     width: 100px;
@@ -89,7 +118,7 @@ h3 {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 70%;
+    top: 85%;
     left: 0;
     color: snow;
     opacity: 0;

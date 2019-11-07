@@ -8,8 +8,6 @@
     <link rel="shortcut icon" href="img/ikona.jpg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,28 +34,27 @@
     </div>
 </nav>
 
-<div class="row" id="main" style="padding: 0; margin: 0; border-bottom:solid black 10px">
-    <div class="col-sm-12" style="padding: 0; margin: 0">
-        <img src="css/woman.jpg" class="h-100 w-100" alt="Noemi foto">
-        <div class="container">
-            <div id="text"><h3> Noemi Zielińska</h3></div>
-        </div>
+<div class="row" id="main">
+    <div class="col-sm-12 vert-center" style="padding: 0; margin: 0">
+        <img src="css/woman.jpg" class="h-60 w-100" id="mainImg " alt="Noemi foto">
+        <h1 id="textAnim">Noemi Zielińska</h1>
+        <h6 id="textSubAnim">The journey has just begun</h6>
     </div>
 </div>
 <div class="container">
-    <div style="background-color: lightgray">
-        <div id="aboutme" style="height: 100px"></div>
+    <div id="aboutmeContainer">
+        <div id="aboutme"></div>
         <div class="row justify-content-center"><p class="paragraf">O mnie:</p>
         </div>
 
         <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <img src="img/misza.jpg" alt="Noemi Zielińska" id="img" style="margin: 60px">
+                <div class="col-sm col-md-6 ">
+                    <img class="mx-auto d-block rounded" src="img/misza.jpg" alt="Noemi Zielińska" id="img">
                 </div>
-                <div class="col-sm" style="margin-top: 60px;">
+                <div class="col-sm col-md-5">
                     <strong>Kilka słów o mnie:</strong>
-                    <p class="lead text-left">
+                    <p class="float-left" id="aboutmeText">
                         Jestem początującą programistką. Do tej pory opanowałam podstawy javy, springa, hibernata,
                         sql-a.
                         Obecnie rozpoczynam naukę na CodersCamp, gdzie zgłębie tajniki html, js, react,
@@ -116,7 +113,7 @@
         </div>
     </div>
 
-    <div style="background-color: lightgray";>
+    <div style="background-color: lightgray" ;>
         <br><br>
         <div id="contact" style="height: 30px"></div>
 
