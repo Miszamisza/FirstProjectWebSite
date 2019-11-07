@@ -42,37 +42,37 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div class="container" id="aboutmeContainer">
+    <div class="container-fluid" id="aboutmeContainer">
         <div id="aboutme"></div>
         <div class="row justify-content-center"><p class="paragraf">O mnie:</p>
         </div>
 
-
-        <div class="row">
-            <div class="col-sm col-md-6 ">
-                <img class="mx-auto d-block rounded" src="img/misza.jpg" alt="Noemi Zielińska" id="img">
-            </div>
-            <div class="col-sm col-md-5">
-                <strong>Kilka słów o mnie:</strong>
-                <p class="float-left" id="aboutmeText">
-                    Jestem początującą programistką. Do tej pory opanowałam podstawy Javy, Springa, Hibernata oraz
-                    Sql-a.
-                    Obecnie zaczynam dalszą intensywną naukę Spring Boota oraz biorę udział w otwartym kursie
-                    programowania webowego CodersCamp. W trakcie trwanie kursu zapoznam się z takimi technologiami
-                    jak: React, Html, Css, Js, Node.js oraz przygotuje 5 projektów.
-                </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm col-md-6 ">
+                    <img class="img-fluid mx-auto d-block rounded" src="img/misza.jpg" alt="Noemi Zielińska"
+                         id="img">
+                </div>
+                <div class="col-sm col-md-5">
+                    <strong>Kilka słów o mnie:</strong>
+                    <p class="float-left" id="aboutmeText">
+                        Jestem początkującą programistką. Do tej pory opanowałam podstawy Javy, Springa, Hibernata oraz
+                        Sql-a.
+                        Obecnie zaczynam dalszą intensywną naukę Spring Boota oraz biorę udział w otwartym kursie
+                        programowania webowego CodersCamp. W trakcie trwanie kursu zapoznam się z takimi technologiami
+                        jak: React, Html, Css, Js, Node.js oraz przygotuje 5 projektów.
+                    </p>
+                </div>
             </div>
         </div>
-
     </div>
 
-    <div class="container-fluid" id="tech-container">
+    <div class="container-fluid  col-sm-6" id="tech-container">
         <div id="tech" style="height: 70px"></div>
         <br><br>
         <div class="row justify-content-center"><p class="paragraf">Technologie:</p>
         </div>
         <hr>
-
         <div class="row">
             <div class="col">
                 <div class="overlay">
@@ -115,21 +115,24 @@
         </div>
     </div>
 
-    <div class="container" id="social-media-container">
-        <br><br>
-        <div id="contact" style="height: 30px"></div>
 
-        <div class="row justify-content-center"><p class="paragraf">Kontakt:</p>
+    <div class="container-fluid" id="social-media-container">
+        <div class="row justify-content-center">
+            <br><br>
+            <div id="contact" style="height: 30px"></div>
+
+            <div class="row justify-content-center"><p class="paragraf">Kontakt:</p>
+            </div>
+
+            <br><br>
         </div>
 
-        <br><br>
-
-        <div class="row col-xs-12" id="social-media">
+        <div class="row col-xs-12 justify-content-between" id="social-media">
             <div class="col social-media-el">
                 <ul>
                     <li data-tooltip0="GitHub">
                         <a href="https://github.com/Miszamisza" target="_blank"><img src="img/github.png"
-                                                                                     class="img-fluid"
+                                                                                     class="img-fluid gallery-img"
                                                                                      alt="java logo"></a>
                     </li>
                 </ul>
@@ -139,7 +142,7 @@
                     <li data-tooltip0="LinkedIn">
                         <a href="https://www.linkedin.com/in/noemiz/" target="_blank"><img
                                 src="img/linkedin.png"
-                                class="img-fluid"
+                                class="img-fluid gallery-img"
                                 alt="linkedin logo"></a>
                     </li>
                 </ul>
@@ -149,7 +152,7 @@
                     <li data-tooltip0="CodeWars">
                         <a href="https://www.codewars.com/users/Misza750" target="_blank"><img
                                 src="img/codewars.png"
-                                class="img-fluid"
+                                class="img-fluid gallery-img"
                                 alt="codewars logo"></a>
                     </li>
                 </ul>
@@ -157,15 +160,15 @@
             <div class="col social-media-el">
                 <ul>
                     <li data-tooltip0="zielinskanoemi5@gmail.com">
-                        <a href="mailto:zielinskanoemi5@gmail.com"><img src="img/mail.png"
-                                                                                     class="img-fluid"
+                        <a href="mailto:zielinskanoemi5@gmail.com" class="link"><img src="img/mail.png"
+                                                                                     class="img-fluid gallery-img"
                                                                                      alt="e-mail"></a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <footer class="container">
+    <footer class="container-fluid">
         <hr>
         <span class="italic"> Copyright 2019</span></footer>
 </div>

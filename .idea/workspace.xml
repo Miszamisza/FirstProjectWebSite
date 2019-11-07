@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573078019303</updated>
-      <workItem from="1573078020993" duration="19435000" />
+      <workItem from="1573078020993" duration="24354000" />
     </task>
     <task id="LOCAL-00001" summary="Layout changes">
       <created>1573124229584</created>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573130969820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Responsive change">
+      <created>1573135161053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573135161054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +117,7 @@
     <MESSAGE value="Layout changes and responsive working" />
     <MESSAGE value="Add font" />
     <MESSAGE value="Text change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Text change" />
+    <MESSAGE value="Responsive change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive change" />
   </component>
 </project>
